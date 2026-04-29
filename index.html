@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>채널 콘텐츠 발행 비교 도구</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #161412;
+    --ink-soft: #4a4540;
+    --ink-faint: #8a8378;
+    --paper: #f5f1ea;
+    --paper-warm: #ede7dc;
+    --line: #d8d0c2;
+    --accent: #c8472f;
+    --accent-soft: #e8a999;
+    --highlight: #f4d35e;
+    --success: #5a8a3a;
+    --warning: #d68910;
+    --signal-strong: #c8472f;
+    --signal-medium: #d68910;
+    --signal-weak: #8a8378;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    background-image:
+      radial-gradient(circle at 15% 20%, rgba(200,71,47,0.04) 0%, transparent 40%),
+      radial-gradient(circle at 85% 80%, rgba(244,211,94,0.06) 0%, transparent 40%);
+    min-height: 100vh;
+    padding: 40px 24px 80px;
+  }
+  .container { max-width: 1100px; margin: 0 auto; }
+
+  header {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 32px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .title-block h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+  .title-block h1 em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--accent);
+  }
+  .title-block .sub {
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--ink-soft);
+    max-width: 540px;
+    line-height: 1.5;
+  }
+  .meta-block {
+    text-align: right;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-faint);
+    line-height: 1.7;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .meta-block .status {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  .meta-block .status.error { background: var(--accent); }
+
+  .form-card {
+    background: var(--paper-warm);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 28px;
+    margin-bottom: 32px;
+    position: relative;
+  }
+  .form-card::before {
+    content: "";
+    position: absolute;
+    top: -1px; left: -1px; right: -1px;
+    height: 4px;
+    background: var(--accent);
+    border-radius: 4px 4px 0 0;
+  }
+
+  .field { margin-bottom: 20px; }
+  .field:last-child { margin-bottom: 0; }
+  .field label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-soft);
+    margin-bottom: 8px;
+  }
+  .field input[type="text"],
+  .field input[type="date"],
+  .field input[type="number"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    border-radius: 3px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: 15px;
+    color: var(--ink);
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .field input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(200,71,47,0.12);
+  }
+  .field .hint {
+    font-size: 12px;
+    color: var(--ink-faint);
+    margin-top: 6px;
+    font-style: italic;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
+  @media (max-width: 700px) {
+    .row { grid-template-columns: 1fr; }
+  }
+
+  .actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .btn-primary {
+    background: var(--ink);
+    color: var(--paper);
+    flex: 1;
+    min-width: 180px;
+  }
+  .btn-primary:hover {
+    background: var(--accent);
+    transform: translateY(-1px);
+  }
+  .btn-secondary {
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--ink);
+  }
+  .btn-secondary:hover {
+    background: var(--ink);
+    color: var(--paper);
+  }
+
+  /* Summary card */
+  .summary {
+    background: var(--ink);
+    color: var(--paper);
+    border-radius: 4px;
+    padding: 28px;
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 24px;
+    align-items: center;
+  }
+  @media (max-width: 700px) {
+    .summary { grid-template-columns: 1fr; gap: 16px; }
+  }
+  .summary .label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--accent-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 6px;
+  }
+  .summary .value {
+    font-family: 'Fraunces', serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+  .summary .value small {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--paper-warm);
+    margin-left: 4px;
+  }
+  .summary .signal {
+    text-align: center;
+  }
+  .signal-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .signal-strong { background: var(--signal-strong); color: white; }
+  .signal-medium { background: var(--signal-medium); color: white; }
+  .signal-weak { background: var(--signal-weak); color: white; }
+
+  /* Channel results */
+  .channel-results {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .channel-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: border-color 0.15s;
+  }
+  .channel-card.has-matches { border-color: var(--accent); }
+  .channel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background: var(--paper-warm);
+    cursor: pointer;
+    user-select: none;
+  }
+  .channel-card.has-matches .channel-header {
+    background: rgba(200,71,47,0.08);
+  }
+  .channel-header h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+  }
+  .channel-header .meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .match-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 500;
+  }
+  .match-count.zero {
+    background: transparent;
+    color: var(--ink-faint);
+    border: 1px solid var(--line);
+  }
+  .channel-card.has-matches .match-count {
+    background: var(--accent);
+  }
+  .toggle-icon {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--ink-faint);
+    transition: transform 0.2s;
+  }
+  .channel-card.expanded .toggle-icon { transform: rotate(180deg); }
+  .channel-articles {
+    display: none;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid var(--line);
+  }
+  .channel-card.expanded .channel-articles { display: block; }
+  .article-item {
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    transition: background 0.15s;
+  }
+  .article-item:last-child { border-bottom: none; }
+  .article-item:hover { background: var(--paper-warm); }
+  .article-date {
+    flex-shrink: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-faint);
+    width: 80px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding-top: 2px;
+  }
+  .article-title {
+    flex: 1;
+    line-height: 1.5;
+  }
+  .article-title a {
+    color: var(--ink);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .article-title a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  .article-title mark {
+    background: var(--highlight);
+    padding: 1px 3px;
+    border-radius: 2px;
+    color: var(--ink);
+  }
+
+  .no-data {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--ink-faint);
+  }
+  .no-data h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+  .no-data p { font-size: 14px; line-height: 1.6; }
+  .no-data code {
+    background: var(--paper-warm);
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+  }
+
+  footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-align: center;
+  }
+  footer span { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="title-block">
+      <h1>채널 콘텐츠<br><em>발행 비교 도구</em></h1>
+      <p class="sub">우리 콘텐츠와 같은 주제의 글이 다른 채널에서 같은 기간에 얼마나 발행됐는지 확인합니다. 디스커버 노출량과의 상관관계를 검증하세요.</p>
+    </div>
+    <div class="meta-block">
+      <span id="dataStatus" class="status">데이터 로딩 중...</span><br>
+      <span id="dataInfo">—</span>
+    </div>
+  </header>
+
+  <div class="form-card">
+    <div class="field">
+      <label for="keyword">우리 콘텐츠 핵심 키워드</label>
+      <input type="text" id="keyword" placeholder="예: 밥솥 그릭요거트" autofocus>
+      <div class="hint">2~3개 단어를 띄어쓰기로 입력. 모든 단어가 제목에 들어간 글만 매칭됩니다.</div>
+    </div>
+    <div class="row">
+      <div class="field">
+        <label for="ourDate">우리 콘텐츠 발행일</label>
+        <input type="date" id="ourDate">
+      </div>
+      <div class="field">
+        <label for="rangeBefore">전 (일)</label>
+        <input type="number" id="rangeBefore" value="14" min="0" max="60">
+        <div class="hint">발행일 며칠 전부터</div>
+      </div>
+      <div class="field">
+        <label for="rangeAfter">후 (일)</label>
+        <input type="number" id="rangeAfter" value="14" min="0" max="60">
+        <div class="hint">발행일 며칠 후까지</div>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="btn btn-primary" id="searchBtn">발행 현황 분석</button>
+      <button class="btn btn-secondary" id="resetBtn">초기화</button>
+    </div>
+  </div>
+
+  <div id="results"></div>
+
+  <footer>
+    data updated daily via github actions — channel coverage may vary — <span>v1.0</span>
+  </footer>
+</div>
+
+<script>
+  const $ = id => document.getElementById(id);
+  let DATA = null;
+
+  // 데이터 로드
+  async function loadData() {
+    try {
+      const resp = await fetch('./data.json?_=' + Date.now());
+      if (!resp.ok) throw new Error('data.json 없음');
+      DATA = await resp.json();
+      updateStatus();
+    } catch (e) {
+      $('dataStatus').textContent = '데이터 없음';
+      $('dataStatus').classList.add('error');
+      $('dataInfo').textContent = 'GitHub Actions가 아직 안 돌았거나 실패';
+      $('results').innerHTML = `
+        <div class="no-data">
+          <h2>아직 수집된 데이터가 없습니다</h2>
+          <p>GitHub Actions가 한 번 이상 실행되어야 합니다.<br>
+          저장소의 <code>Actions</code> 탭에서 <code>Collect Channel Articles</code> 워크플로우를 수동 실행해보세요.</p>
+        </div>`;
+      throw e;
+    }
+  }
+
+  function updateStatus() {
+    const total = DATA.articles?.length || 0;
+    const updated = DATA.last_updated ? new Date(DATA.last_updated) : null;
+    const updatedStr = updated ? `${updated.getFullYear()}.${String(updated.getMonth()+1).padStart(2,'0')}.${String(updated.getDate()).padStart(2,'0')}` : '—';
+    $('dataStatus').textContent = `${total}건 수집`;
+    $('dataInfo').textContent = `마지막 업데이트: ${updatedStr}`;
+  }
+
+  // 오늘 날짜 기본값
+  function setDefaultDate() {
+    const t = new Date();
+    $('ourDate').value = `${t.getFullYear()}-${String(t.getMonth()+1).padStart(2,'0')}-${String(t.getDate()).padStart(2,'0')}`;
+  }
+  setDefaultDate();
+
+  // 키워드 매칭: 모든 단어가 제목에 포함되면 매칭
+  function matchesKeyword(title, keywords) {
+    const lower = title.toLowerCase();
+    return keywords.every(kw => lower.includes(kw.toLowerCase()));
+  }
+
+  // 키워드 하이라이트
+  function highlightKeywords(title, keywords) {
+    let result = title;
+    keywords.forEach(kw => {
+      const re = new RegExp(`(${kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+      result = result.replace(re, '<mark>$1</mark>');
+    });
+    return result;
+  }
+
+  // 날짜 범위 필터
+  function inDateRange(dateStr, fromStr, toStr) {
+    if (!dateStr) return false;
+    return dateStr >= fromStr && dateStr <= toStr;
+  }
+
+  function addDays(dateStr, days) {
+    const d = new Date(dateStr);
+    d.setDate(d.getDate() + days);
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  }
+
+  function formatShortDate(dateStr) {
+    if (!dateStr) return '—';
+    return dateStr.replace(/^\d{4}-/, '').replace('-', '/');
+  }
+
+  // 검색 실행
+  function search() {
+    if (!DATA) return;
+
+    const keyword = $('keyword').value.trim();
+    const ourDate = $('ourDate').value;
+    const rangeBefore = parseInt($('rangeBefore').value) || 0;
+    const rangeAfter = parseInt($('rangeAfter').value) || 0;
+
+    if (!keyword) {
+      $('keyword').focus();
+      return;
+    }
+    if (!ourDate) {
+      $('ourDate').focus();
+      return;
+    }
+
+    const keywords = keyword.split(/\s+/).filter(k => k.length > 0);
+    const fromDate = addDays(ourDate, -rangeBefore);
+    const toDate = addDays(ourDate, rangeAfter);
+
+    // 채널별로 그룹화
+    const byChannel = {};
+    Object.keys(DATA.channels || {}).forEach(chId => {
+      byChannel[chId] = {
+        meta: DATA.channels[chId],
+        articles: []
+      };
+    });
+
+    let totalMatches = 0;
+    (DATA.articles || []).forEach(art => {
+      if (!inDateRange(art.published_date, fromDate, toDate)) return;
+      if (!matchesKeyword(art.title, keywords)) return;
+
+      const chId = art.channel;
+      if (!byChannel[chId]) {
+        byChannel[chId] = {
+          meta: { name: chId, type: 'unknown' },
+          articles: []
+        };
+      }
+      byChannel[chId].articles.push(art);
+      totalMatches++;
+    });
+
+    // 채널 카운트 (매칭 많은 순)
+    const channelCount = Object.values(byChannel).filter(c => c.articles.length > 0).length;
+    const totalChannels = Object.keys(byChannel).length;
+
+    // 시그널 강도
+    let signal = 'weak', signalLabel = '시그널 약함';
+    if (totalMatches >= 10 && channelCount >= 4) {
+      signal = 'strong'; signalLabel = '🔥 시그널 강함';
+    } else if (totalMatches >= 5 || channelCount >= 3) {
+      signal = 'medium'; signalLabel = '📈 시그널 중간';
+    }
+
+    // 렌더
+    renderResults({
+      keyword,
+      keywords,
+      ourDate,
+      fromDate,
+      toDate,
+      totalMatches,
+      channelCount,
+      totalChannels,
+      signal,
+      signalLabel,
+      byChannel
+    });
+  }
+
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+  }
+
+  function renderResults(r) {
+    // 채널을 매칭 수 내림차순으로 정렬
+    const sortedChannels = Object.entries(r.byChannel)
+      .sort((a, b) => b[1].articles.length - a[1].articles.length);
+
+    const channelHtml = sortedChannels.map(([chId, ch]) => {
+      const count = ch.articles.length;
+      const hasMatches = count > 0;
+      const articlesHtml = ch.articles
+        .sort((a, b) => (b.published_date || '').localeCompare(a.published_date || ''))
+        .map(art => `
+          <li class="article-item">
+            <span class="article-date">${formatShortDate(art.published_date)}</span>
+            <span class="article-title">
+              <a href="${escapeHtml(art.url)}" target="_blank" rel="noopener">
+                ${highlightKeywords(escapeHtml(art.title), r.keywords)}
+              </a>
+            </span>
+          </li>
+        `).join('');
+
+      return `
+        <div class="channel-card ${hasMatches ? 'has-matches' : ''} ${hasMatches ? 'expanded' : ''}" data-channel="${escapeHtml(chId)}">
+          <div class="channel-header" onclick="this.parentElement.classList.toggle('expanded')">
+            <h3>${escapeHtml(ch.meta.name)}</h3>
+            <div class="meta">
+              <span class="match-count ${count === 0 ? 'zero' : ''}">${count}건</span>
+              <span class="toggle-icon">▾</span>
+            </div>
+          </div>
+          ${hasMatches ? `<ul class="channel-articles">${articlesHtml}</ul>` : ''}
+        </div>
+      `;
+    }).join('');
+
+    $('results').innerHTML = `
+      <div class="summary">
+        <div>
+          <div class="label">분석 결과</div>
+          <div class="value">${r.totalMatches}<small>건 / ${r.channelCount}개 채널</small></div>
+        </div>
+        <div>
+          <div class="label">기간</div>
+          <div class="value" style="font-size:18px;">
+            ${r.fromDate}<br>~ ${r.toDate}
+          </div>
+        </div>
+        <div class="signal">
+          <div class="label">발행 시그널</div>
+          <div class="signal-badge signal-${r.signal}">${r.signalLabel}</div>
+        </div>
+      </div>
+      <div class="channel-results">${channelHtml}</div>
+    `;
+
+    $('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  // 이벤트
+  $('searchBtn').addEventListener('click', search);
+  $('keyword').addEventListener('keydown', e => { if (e.key === 'Enter') search(); });
+  $('resetBtn').addEventListener('click', () => {
+    $('keyword').value = '';
+    $('rangeBefore').value = 14;
+    $('rangeAfter').value = 14;
+    setDefaultDate();
+    $('results').innerHTML = '';
+    $('keyword').focus();
+  });
+
+  // 초기 로드
+  loadData();
+</script>
+</body>
+</html>
