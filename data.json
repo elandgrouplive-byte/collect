@@ -1,6 +1,211 @@
 {
-  "last_updated": null,
-  "channels": {},
-  "articles": [],
-  "counts": {}
+  "last_updated": "2026-04-29T00:17:12.494338",
+  "channels": {
+    "ardentnews": {
+      "name": "아던트뉴스 생활·문화",
+      "type": "news"
+    },
+    "wikitree": {
+      "name": "위키트리 라이프",
+      "type": "news"
+    },
+    "daum_helshu": {
+      "name": "다음·헬슈오",
+      "type": "daum_channel"
+    },
+    "daum_wellness": {
+      "name": "다음·웰니스업",
+      "type": "daum_channel"
+    },
+    "daum_ten": {
+      "name": "다음·텐꿀팁",
+      "type": "daum_channel"
+    },
+    "daum_dogam": {
+      "name": "다음·채널도감",
+      "type": "daum_channel"
+    },
+    "daum_ingam": {
+      "name": "다음·인감군의건강정보",
+      "type": "daum_channel"
+    },
+    "daum_living": {
+      "name": "다음·리빙어게인",
+      "type": "daum_channel"
+    }
+  },
+  "articles": [
+    {
+      "title": "\"곰팡이 얼룩이 생긴 흰 옷에 '이 액체' 뿌려보세요\"... 한번 알면 평생 써먹습니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13673",
+      "published_date": "2026-04-29",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"배 없이 섬 5개를 차로 돌아다닌다고?\"... 매년 250만 명 찾는 서해 트레킹·드라이브 코스",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13742",
+      "published_date": "2026-04-29",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"계란판 '이렇게'까지 활용 가능하다고?\"... 살림 고수들은 이미 하고 있었습니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13677",
+      "published_date": "2026-04-29",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"CNN이 '아시아 저평가 명소'로 뽑았다고?\"... 배 없이 차로 가는 해안 섬 트레킹·드라이브코스",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13729",
+      "published_date": "2026-04-29",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"생선 구울 때 밀가루 묻히고 구워보세요\"... 집에서도 마음 편하게 구울 수 있네요",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13674",
+      "published_date": "2026-04-29",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"무료인데 남산타워 전망 부럽지 않네\"... 한 달에 23만 명 몰린 도심 속 숲 위 160m 산책로",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13727",
+      "published_date": "2026-04-29",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"이 얼룩 만큼은 뜨거운 물 붓지 마세요\"... 온도 하나 바꿨는데 싹 지워졌습니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13667",
+      "published_date": "2026-04-29",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"1.7km 전 구간이 황토로 덮여 있다고?\"... 30분이면 완주하는 숲과 호수뷰 힐링 맨발 산책로",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13724",
+      "published_date": "2026-04-29",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"높이 18m·100톤 불상이 우리나라에?\"... '국내 최대 좌불' 품은 야외 불상군 무료 사찰",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13722",
+      "published_date": "2026-04-29",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "폰케이스 보고 떠오르는 것…카카오뱅크 AI 퀴즈 정답은? (4월 29일)",
+      "url": "https://www.wikitree.co.kr/articles/1134101",
+      "published_date": "2026-04-29",
+      "channel": "wikitree",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"재물운 부른다\" 부자들 현관에는 꼭 있다는 '이 물건'…3위부터 1위까지",
+      "url": "https://www.wikitree.co.kr/articles/1134076",
+      "published_date": "2026-04-29",
+      "channel": "wikitree",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "식빵 '2장' 놓고 우유 쪼로록 부어 보세요...카페 갈 필요 없습니다",
+      "url": "https://www.wikitree.co.kr/articles/1134077",
+      "published_date": "2026-04-29",
+      "channel": "wikitree",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "“모텔 잘 안 가고…” 2026년 불륜의 성지로 불리는 의외의 '장소'",
+      "url": "https://www.wikitree.co.kr/articles/1134034",
+      "published_date": "2026-04-29",
+      "channel": "wikitree",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"장가계 안 부러운 협곡 위를 410m 걷는다\"... Y자형 출렁다리 건너 만나는 봄꽃 정원",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13719",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"대구·경북 유일하게 집단 자생한다니\"... 흰 꽃으로 뒤덮인 수령 300년 이팝나무 군락지",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13716",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"먹고 버리려던 바나나 껍질 전자레인지에 넣어보세요\"... 이렇게 좋은 걸 왜  이제 알았을까 싶습니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13670",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"수건 가족들이랑 같이 썼는데\"... 알고 보니 세균 서로 옮기고 있었습니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13668",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"12억 들여 2년 만에 열었는데 무료라고?\"... 황새 서식지 걷는 5.1km 3개 코스 수변 둘레길",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13712",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"거의 다 써서 비어가는 샴푸통 버리지 마세요\"… '이렇게' 활용하면 삶의 질 2배 높아집니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13672",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"1박 45,000원이 진짜라니\"... 30년 넘은 침엽·활엽수 품은 숲 자연휴양림",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13703",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"싱크대 배수구에 베이킹소다를 뿌려보세요\"... 이걸 왜 진작 몰랐을까요",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13660",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"해안 절벽 위 절경이 압도적이에요\"... 한가지 소원 이루어 준다는 600년 바닷가 고찰",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13697",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"쌀 씻을 때 '이렇게' 해보세요\"... 온 가족이 밥만 먹어도 맛있다고 칭찬합니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13669",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    },
+    {
+      "title": "\"세계 3대 불가사의가 우리나라에 있었어?\"... 용암·석회가 함께 자라는 250만 년 된 동굴",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=13684",
+      "published_date": "2026-04-28",
+      "channel": "ardentnews",
+      "collected_date": "2026-04-29"
+    }
+  ],
+  "counts": {
+    "ardentnews": 20,
+    "wikitree": 4
+  }
 }
