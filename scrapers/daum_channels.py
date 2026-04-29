@@ -30,12 +30,7 @@ def collect_one_channel(playwright_browser, channel):
     articles = []
 
     try:
-        page = playwright_browser.new_page(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                       "(KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-            viewport={"width": 1280, "height": 900},
-            locale="ko-KR",
-        )
+        page = playwright_browser.new_page()
 
         # 페이지 로드. timeout 30초.
         page.goto(url, wait_until="domcontentloaded", timeout=30000)
