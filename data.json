@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T16:57:21.836056",
+  "last_updated": "2026-05-26T17:51:11.724377",
   "channels": {
     "ardentnews": {
       "name": "아던트뉴스 생활·문화",
@@ -36,11 +36,451 @@
   },
   "articles": [
     {
+      "title": "\"숲속에서 남해 바다까지 보이는데 1박 6만 원\"… 편백숲과 해안 절경 품은 힐링 휴양림",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14700",
+      "published_date": "2026-05-27",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "“11일 만에 6만 명 다녀갔다는 화제의 명소”… 강물 위 45m 공중 가로지르는 출렁다리",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14687",
+      "published_date": "2026-05-27",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
       "title": "\"낮에도 감탄했는데 밤에는 더 멋지다”… 딱 지금만 즐길 수 있는 장미 빛 야경 축제",
       "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14618",
       "published_date": "2026-05-26",
       "channel": "ardentnews",
       "collected_date": "2026-05-25"
+    },
+    {
+      "title": "\"호남의 금강산이라 불린다더니 진짜였어요\"... 발아래 120m 협곡 가르는 구름다리 명산",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14686",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"두부에 '빨대'로 구멍 뚫어 보세요\"... 30초도 안 걸리는데 결과물은 완전히 달라집니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14703",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"2년 만에 드디어 열린다고?\"... 세계 최대 7.6m 용암석주 보유한 천연 동굴 트레킹 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14683",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"전자레인지에 소주 한잔 넣어보세요\"... 3분만 지나면 온 가족이 잘했다고 칭찬합니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14705",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"전국 9대 일몰이 발 아래 펼쳐져요\"... 바다·섬·산 다 품은 2.43km 하늘 위 노을 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14679",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"축구장 70개 규모 식물원이 단돈 5,000원?\"... 열대온실·호수·국산 수국 즐기는 5월 산책 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14671",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"남은 맥주에 '이 물' 섞어 방충망에 뿌려보세요\"… 천연 모기 기피스프레이로 쓸 수 있습니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14697",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"오후 3시 이후엔 들어갈 수 없다는데”… 입장료 없이 걷는 12km 원시림 트레킹 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14624",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"87종 장미 5만 본이 한꺼번에 피었다”… 6월 초까지만 볼 수 있는 도심 속 무료 장미 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14623",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"싱크대 스테인리스 녹에 케첩을 도톰하게 발라보세요\"... 30분 뒤 반짝반짝해집니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14675",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"3년 만에 무료 개방됐는데 절경이네\"... 37억 원 들여 섬 풍경 180도 뚫어낸 전망 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14677",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"돈 한 푼 안 드는데 이런 절경이라니”…호수 위 1만 2천 평 붉은 꽃밭 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14622",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"다 먹은 고추장통 버리지 마세요\"… '이렇게' 활용하면 생활비 월 1만원 아낍니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14676",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"돌탑 1,500개를 전부 사람 손으로 쌓았어요\"… 40년 염원이 만든 해발 850m 신비 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14635",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"국내 최초·최대 인공 저수지답게 압도적이네\"... 입장·주차 무료, 2.6km 제방길 산책 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14642",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"고무장갑에 '이 한 방울' 넣고 30초만 흔들어 보세요\"... 냄새·세균 한 번에 잡습니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14670",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"수몰된 마을 위로 31.5km 호수길이 생겼다니\"... 시니어도 편하게 탐방하는 호수 트레킹 코스",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14680",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "“진짜 유럽 호텔 정원인줄 알았어요”… 세계대회 수상 장미 300만 송이 피어난 봄 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=14621",
+      "published_date": "2026-05-26",
+      "channel": "ardentnews",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "5월 27일 '소띠·용띠·뱀띠' 3개 띠 대운 개시, 기다리던 행운 터진다 (+운세)",
+      "url": "https://www.wikitree.co.kr/articles/1137523",
+      "published_date": "2026-05-26",
+      "channel": "wikitree",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "물길이 조각한 50m 화강암 병풍…유네스코가 인정한 '국내 절벽 명소'",
+      "url": "https://www.wikitree.co.kr/articles/1138424",
+      "published_date": "2026-05-26",
+      "channel": "wikitree",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "“버리고 비워야..” 법정스님이 말한 돈 걱정 없이 사는 사람들의 공통점 1위",
+      "url": "https://www.wikitree.co.kr/articles/1138432",
+      "published_date": "2026-05-26",
+      "channel": "wikitree",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "“그 돈이면 고깃집 가겠다”…서민 음식이었는데 전국서 가장 비싸진 음식 1위",
+      "url": "https://www.wikitree.co.kr/articles/1138428",
+      "published_date": "2026-05-26",
+      "channel": "wikitree",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"절대 생으로 먹지 마세요..\" 익혀 먹으면 향산화 효과 30배 늘어나는 국민 채소\n작성시간\n1일 전조회수 75",
+      "url": "https://v.daum.net/v/7Ojh8gQ94r",
+      "published_date": "2026-05-26",
+      "channel": "daum_helshu",
+      "channel_name": "헬슈오",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"일본 관광객들이 쓸어담았다..\" 한국시장에 널렸는데 일본엔 없어서 못 먹는 보약 음식\n작성시간\n1일 전조회수 4",
+      "url": "https://v.daum.net/v/Kp5ZkTwa6n",
+      "published_date": "2026-05-26",
+      "channel": "daum_helshu",
+      "channel_name": "헬슈오",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"한국인 41%가 걸렸다..\" 당뇨 아니라서 안심했다가 응급실 실려갔습니다.\n작성시간\n14시간 전조회수 3",
+      "url": "https://v.daum.net/v/7l1DXUGh9F",
+      "published_date": "2026-05-26",
+      "channel": "daum_helshu",
+      "channel_name": "헬슈오",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"27년차 의사가 인정한 천연인슐린..\" 공복에 먹으면 불안정한 혈당 싹 잡아주는 음식\n작성시간\n10시간 전조회수 2",
+      "url": "https://v.daum.net/v/Z18CLYsA5l",
+      "published_date": "2026-05-26",
+      "channel": "daum_helshu",
+      "channel_name": "헬슈오",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"일본에서는 없어서 못먹는데..\" 한국에는 식당 서비스 반찬으로 나오는 슈퍼푸드\n작성시간\n12시간 전조회수 3,927",
+      "url": "https://v.daum.net/v/Z3kq7gQ9ye",
+      "published_date": "2026-05-26",
+      "channel": "daum_wellness",
+      "channel_name": "웰니스업",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"생강은 약과였습니다\" 막힌 혈류 뚫어주고 손발 끝까지 온기 돌게 하는 1등 채소\n작성시간\n20시간 전조회수 3,209",
+      "url": "https://v.daum.net/v/qTZHR4u5ve",
+      "published_date": "2026-05-26",
+      "channel": "daum_wellness",
+      "channel_name": "웰니스업",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"노화로 굳은 몸 싹 풀어줍니다\" 해외 언론이 극찬한 한국의 수명 연장 운동법\n작성시간\n14시간 전조회수 887",
+      "url": "https://v.daum.net/v/yE0stq5TFv",
+      "published_date": "2026-05-26",
+      "channel": "daum_wellness",
+      "channel_name": "웰니스업",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "90살까지 혈관 팔팔한 어르신들이 밥상에 \"빼놓지 않은\" 음식\n작성시간\n18시간 전조회수 643",
+      "url": "https://v.daum.net/v/54Uz7tvm9B",
+      "published_date": "2026-05-26",
+      "channel": "daum_wellness",
+      "channel_name": "웰니스업",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "여름철 기력 회복에 좋은 삼계탕, '이런 사람'이 먹으면 오히려 건강 망치게 됩니다\n작성시간\n1일 전조회수 20",
+      "url": "https://v.daum.net/v/UPHzDWmjhC",
+      "published_date": "2026-05-26",
+      "channel": "daum_wellness",
+      "channel_name": "웰니스업",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"제발 가스레인지 옆에 두지 마세요\" 건강 챙기려다 치매 유발하는 '산패 폭탄' 맞습니다\n작성시간\n16시간 전조회수 11",
+      "url": "https://v.daum.net/v/6zPu7fUZsv",
+      "published_date": "2026-05-26",
+      "channel": "daum_wellness",
+      "channel_name": "웰니스업",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "팽이버섯 귀찮다고 그냥 씻지 마세요.. 주부들도 평생 몰랐던 팽이버섯 \"진짜 꿀팁\"\n작성시간\n10시간 전조회수 1.4만",
+      "url": "https://v.daum.net/v/PzbDMhcn8l",
+      "published_date": "2026-05-26",
+      "channel": "daum_ten",
+      "channel_name": "텐꿀팁",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "미역국에 제발 '이 가루' 넣으세요.. 30년차 주부도 놀란 미역국 \"평생 꿀팁\"\n작성시간\n14시간 전조회수 1만",
+      "url": "https://v.daum.net/v/f0nzdjRfZD",
+      "published_date": "2026-05-26",
+      "channel": "daum_ten",
+      "channel_name": "텐꿀팁",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "계란판 제발 '이렇게' 하세요.. 한국인 90% 몰랐던 계란판 \"진짜 꿀팁\"\n작성시간\n17시간 전조회수 1,167",
+      "url": "https://v.daum.net/v/yWO5xoPKIM",
+      "published_date": "2026-05-26",
+      "channel": "daum_ten",
+      "channel_name": "텐꿀팁",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"행주 그냥 쓰면 바보입니다..\" 50대 주부 90% 모르는 행주 \"진짜 소독법\"\n작성시간\n2026. 4. 20.조회수 10",
+      "url": "https://v.daum.net/v/3sRUL3Ailx",
+      "published_date": "2026-05-26",
+      "channel": "daum_ten",
+      "channel_name": "텐꿀팁",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"멸치도 다시마도 아닙니다..\" 어묵탕 감칠맛 2배 살리는 뜻밖의 재료\n작성시간\n2026. 4. 12.조회수 4",
+      "url": "https://v.daum.net/v/QsKDrVhDkz",
+      "published_date": "2026-05-26",
+      "channel": "daum_ten",
+      "channel_name": "텐꿀팁",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "종이 쇼핑백 그냥 버렸다간 땅을 치고 후회합니다.. 주부 90%가 모르는 쇼핑백 활용\n작성시간\n2026. 4. 9.조회수 4",
+      "url": "https://v.daum.net/v/KdSzO4Srs9",
+      "published_date": "2026-05-26",
+      "channel": "daum_ten",
+      "channel_name": "텐꿀팁",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"밤마다 한 알씩 드세요..\" 막힌 뇌혈관 뚫고 기억력 2배 높이는 음식 1위\n작성시간\n17시간 전조회수 5,982",
+      "url": "https://v.daum.net/v/QhEWfe2uCo",
+      "published_date": "2026-05-26",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"백내장 무섭다면 매일 드세요..\" 시력 노화 늦추고 눈 피로 줄이는 1등 음식\n작성시간\n16시간 전조회수 4,501",
+      "url": "https://v.daum.net/v/3ecMRax26o",
+      "published_date": "2026-05-26",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"시금치, 콩나물 다 제쳤다..\" 혈관 속 기름때 싹 씻어내는 국민 반찬 1위\n작성시간\n12시간 전조회수 1,953",
+      "url": "https://v.daum.net/v/XW3jaXCE4w",
+      "published_date": "2026-05-26",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"유럽 사람들도 환장합니다..\" 해외에서 매출 1위 찍은 한국 음식의 정체\n작성시간\n15시간 전조회수 1,129",
+      "url": "https://v.daum.net/v/uvOsytvm8e",
+      "published_date": "2026-05-26",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"50대 이후 제발 끊으세요..\" 만성 염증에 고혈압까지 부르는 최악의 음식\n작성시간\n11시간 전조회수 764",
+      "url": "https://v.daum.net/v/Wpz6Kcd8WA",
+      "published_date": "2026-05-26",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"탄수화물보다 최악입니다..\" 당뇨 환자가 지금 당장 끊어야 할 '이 음식'의 정체\n작성시간\n1일 전조회수 3",
+      "url": "https://v.daum.net/v/QSIORkJ6By",
+      "published_date": "2026-05-26",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"우유도 두유도 아니다..\" 나이 들어 구멍난 뼈 꽉 채워주는 1등 음식\n작성시간\n10시간 전조회수 2",
+      "url": "https://v.daum.net/v/UMcplKFYC1",
+      "published_date": "2026-05-26",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"마늘, 생강 다 제쳤다..\" 암세포 굶겨 죽이고 췌장암 예방하는 1등 항암음식\n작성시간\n2일 전조회수 2",
+      "url": "https://v.daum.net/v/6nQFwax2EX",
+      "published_date": "2026-05-26",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"비싼 영양제 다 제쳤습니다..\" 단돈 2천원으로 전신 염증 잡고 암세포 싹 녹이는 식품\n작성시간\n6일 전조회수 2",
+      "url": "https://v.daum.net/v/PLi45YsAhT",
+      "published_date": "2026-05-26",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"한국에선 흔한 반찬인데...\" 일본에선 없어서 못 사는 의외의 슈퍼푸드\n작성시간\n16시간 전조회수 1,788",
+      "url": "https://v.daum.net/v/pTYwrvDgSD",
+      "published_date": "2026-05-26",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"삼계탕보다 단백질 많습니다..\" 근육 부족한 노년층에게 최고라는 가성비 음식\n작성시간\n12시간 전조회수 339",
+      "url": "https://v.daum.net/v/0THidvDgC6",
+      "published_date": "2026-05-26",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"천 원짜리 채소의 반전..\" 암세포가 가장 싫어한다는 항암 식재료\n작성시간\n11시간 전조회수 279",
+      "url": "https://v.daum.net/v/xPRjiyrNSk",
+      "published_date": "2026-05-26",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"잠 안 오는 밤마다 드세요..\" 혈관 건강과 숙면 동시에 챙기는 간식\n작성시간\n9시간 전조회수 162",
+      "url": "https://v.daum.net/v/tTElEsaeOt",
+      "published_date": "2026-05-26",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "\"건강식인 줄 알았는데...\" 매일 먹던 이것, 알고 보니 혈당 올리는 최악의 음식\n작성시간\n17시간 전조회수 35",
+      "url": "https://v.daum.net/v/59vpicd8Yd",
+      "published_date": "2026-05-26",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "당장 빼셔야 합니다 \"라면과 같이 먹으면 최악\" 혈관 망친다는 음식 1위\n작성시간\n5일 전조회수 4",
+      "url": "https://v.daum.net/v/G2Jfm5lwWI",
+      "published_date": "2026-05-26",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "쌀 씻기 \"한국인 90%는 틀렸습니다\" 앞으로 꼭 이렇게 씻으세요\n작성시간\n13시간 전조회수 562",
+      "url": "https://v.daum.net/v/yHnrnWmjDf",
+      "published_date": "2026-05-26",
+      "channel": "daum_living",
+      "channel_name": "리빙어게인",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "자식 있는 집은 \"꼭 이 식물 키우세요\" 집 안에 공기가 숲속으로 바뀝니다\n작성시간\n12시간 전조회수 261",
+      "url": "https://v.daum.net/v/UtBLHPqFh0",
+      "published_date": "2026-05-26",
+      "channel": "daum_living",
+      "channel_name": "리빙어게인",
+      "collected_date": "2026-05-26"
+    },
+    {
+      "title": "와... LG 수리기사님이 90%는 모른다고 세탁기 ''꾸정물 보여줬는데'' 충격 먹었습니\n작성시간\n2026. 4. 13.조회수 6",
+      "url": "https://v.daum.net/v/ZXWKiLFYEg",
+      "published_date": "2026-05-26",
+      "channel": "daum_living",
+      "channel_name": "리빙어게인",
+      "collected_date": "2026-05-26"
     },
     {
       "title": "\"해발 255m인데 설악산 뺨치네요\"... 유네스코도 인정한 6km 섬 해안 트레킹 코스",
@@ -15311,13 +15751,13 @@
     }
   ],
   "counts": {
-    "ardentnews": 558,
-    "wikitree": 112,
-    "daum_helshu": 179,
-    "daum_wellness": 253,
-    "daum_ten": 173,
-    "daum_dogam": 251,
-    "daum_ingam": 290,
-    "daum_living": 177
+    "ardentnews": 578,
+    "wikitree": 116,
+    "daum_helshu": 183,
+    "daum_wellness": 259,
+    "daum_ten": 179,
+    "daum_dogam": 260,
+    "daum_ingam": 296,
+    "daum_living": 180
   }
 }
