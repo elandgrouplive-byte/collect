@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T16:59:55.184133",
+  "last_updated": "2026-09-06T17:24:17.439329",
   "channels": {
     "ardentnews": {
       "name": "아던트뉴스 생활·문화",
@@ -36,6 +36,41 @@
   },
   "articles": [
     {
+      "title": "\"여기 다녀오면 다른 곳은 생각도 안 나요\"… 연노란빛 상사화와 노을 겹치는 언덕길",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18812",
+      "published_date": "2026-09-07",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"제발 계란이랑 '이것' 같이 먹지 마세요\"... 밥 먹을 때마다 잘못 먹고 있었습니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18869",
+      "published_date": "2026-09-07",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"침실에 '이 식물'을 놔둬보세요\"... 모기도 안 보이고 상쾌한 공기가 퍼집니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18839",
+      "published_date": "2026-09-07",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"직접 다녀온 사람만 안다는 감동적인 풍경\"… 임진왜란 신호였던 등불이 흐르는 밤 축제",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18813",
+      "published_date": "2026-09-07",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"걸어서 무인도까지 들어갈 수 있다니\"… 631m 다리로 이어지는 산책 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18756",
+      "published_date": "2026-09-07",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
       "title": "\"입 냄새 안 나는 사람들은 양치 '이렇게' 한다\"... 매일 해도 놓치기 쉬운 제대로 양치하는 법",
       "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18833",
       "published_date": "2026-09-06",
@@ -62,6 +97,363 @@
       "published_date": "2026-09-06",
       "channel": "ardentnews",
       "collected_date": "2026-09-05"
+    },
+    {
+      "title": "\"무료인데 이렇게까지 화려해도 되나요?\"… 496개 조명 켜지는 무지개다리 야경 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18807",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"발밑이 훤히 비치는 유리 잔도, 걸어보니 아찔했다\"… 협곡 절벽 위 무료 전망 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18803",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"밥 지을 때 '이 비율' 맞춰보세요\"... 얼려도 맛있는 촉촉한 밥이 완성됩니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18843",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"이 바위 반경 12km에서 재벌이 셋이나 나왔다고요?\"… 258m 다리 위에서 마주하는 전설",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18802",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"폐쇄됐던 하늘길 다시 문을 열었습니다\"... 강과 기암절벽 어우러진 1,096m 산악형 잔도길",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18821",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"된장통 위에 '이 1장'만 덮어보세요\"… 굳고 색 바래는 게 눈에 띄게 줄었습니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18900",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"눌어붙은 프라이팬에 '이 껍질' 문질러 보세요\"... 기름때가 스르륵 벗겨집니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18836",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"9월엔 옅게 10월 초엔 짙게, 색이 매일 달라요\"… 구절초·코스모스까지 함께 피는 가을꽃 공원",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18801",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"20억 들인 명품길, 소문나기 전에 걸어봐야해요\"... 수달 서식지 곁에 놓인 538m 수변 산책길",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18824",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"냉장고 청소할 때 락스 쓰지 마세요\"... '이 액체' 뿌리면 얼룩·냄새 싹 지워집니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18894",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"과자봉지를 싱크대 수전에 가져가는 이유\"… 완전 신세계인데 왜 진작 몰랐을까요",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18844",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"해발 976m 절벽 끝에서 만난 이 풍경\"...기암괴석 병풍처럼 두른 법당",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18800",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"제주도에서 여기는 사람들이 잘 모르더라구요\"... 배로 15분, 화산탄과 전망대 품은 지질 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18819",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"키친타월 깐 밥솥에 계란 넣고 '이 가루' 뿌려보세요\"... 껍질이 술술 벗겨집니다",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18834",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"국민이 뽑은 2위 명소, 세계 관람객 순위 3위로 우뚝 서다\"... 9,884점 유물 품은 실내 명소",
+      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=18842",
+      "published_date": "2026-09-06",
+      "channel": "ardentnews",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "09/07-09/13 십이지지별 운세, 12띠 중 감정 조절이 필수인 이유는?",
+      "url": "https://www.wikitree.co.kr/articles/1156945",
+      "published_date": "2026-09-06",
+      "channel": "wikitree",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "9월 7일 띠별 운세 공개, 용띠·뱀띠는 '재물운 최고' vs 개띠·돼지띠는 '주의 필수'",
+      "url": "https://www.wikitree.co.kr/articles/1156848",
+      "published_date": "2026-09-06",
+      "channel": "wikitree",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "조용히 치명적이다…품격 있는 중년이라면 절대 하지 않는 '행동' TOP5",
+      "url": "https://www.wikitree.co.kr/articles/1157427",
+      "published_date": "2026-09-06",
+      "channel": "wikitree",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "지금껏 몰랐다… 찬물로 우려야 더 좋다는 '이것'",
+      "url": "https://www.wikitree.co.kr/articles/1156813",
+      "published_date": "2026-09-06",
+      "channel": "wikitree",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"두부의 47배..\" 힘없는 60대 팔다리 근육 빵빵하게 채워주는 음식 1위\n작성시간\n10시간 전조회수 530",
+      "url": "https://v.daum.net/v/Q8XBMQ0HbB",
+      "published_date": "2026-09-06",
+      "channel": "daum_helshu",
+      "channel_name": "헬슈오",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"지금껏 설탕 덩어리를 사먹었구나..\" 60대 이후 혈액 끈적하게 만드는 최악의 반찬 1위\n작성시간\n14시간 전조회수 66",
+      "url": "https://v.daum.net/v/yWgG8VZv3a",
+      "published_date": "2026-09-06",
+      "channel": "daum_helshu",
+      "channel_name": "헬슈오",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"등산의 47배..\" 힘없는 60대 다리 근육 빵빵하게 채워주는 최고의 보약 운동\n작성시간\n1일 전조회수 52",
+      "url": "https://v.daum.net/v/ULYfR9Hl3Y",
+      "published_date": "2026-09-06",
+      "channel": "daum_helshu",
+      "channel_name": "헬슈오",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"낙지의 47배..\" 망가진 간 되살리고 혈압까지 쑥 낮추는 '천연 타우린' 음식\n작성시간\n1일 전조회수 3",
+      "url": "https://v.daum.net/v/10zFzKGhYx",
+      "published_date": "2026-09-06",
+      "channel": "daum_helshu",
+      "channel_name": "헬슈오",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"치킨의 47배..\" 대장암 말기 환자가 먹지 말걸 땅을 치고 후회한 음식 1위\n작성시간\n12시간 전조회수 2",
+      "url": "https://v.daum.net/v/0dhOWvaeFU",
+      "published_date": "2026-09-06",
+      "channel": "daum_helshu",
+      "channel_name": "헬슈오",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"버리지 말고 반찬으로 드세요..\" 한국인 90%가 무심코 버리는 '천연 항암 음식'\n작성시간\n14시간 전조회수 1,544",
+      "url": "https://v.daum.net/v/GL3dSCnQd4",
+      "published_date": "2026-09-06",
+      "channel": "daum_wellness",
+      "channel_name": "웰니스업",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"걷기운동, 스쿼드 다 제쳤다..\" 하루 10분으로 60대 수명 늘려주는 '이 운동'\n작성시간\n10시간 전조회수 90",
+      "url": "https://v.daum.net/v/ql04LiB3pw",
+      "published_date": "2026-09-06",
+      "channel": "daum_wellness",
+      "channel_name": "웰니스업",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"이미 먹은 사람들 어쩌나..\" 술 안 마셔도 50대 이후 '간경화' 부르는 음식 1위\n작성시간\n16시간 전조회수 14",
+      "url": "https://v.daum.net/v/HVYD0e710b",
+      "published_date": "2026-09-06",
+      "channel": "daum_wellness",
+      "channel_name": "웰니스업",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"60대는 '이 음식' 자주 먹지 마세요\" 신장 수치 폭발시켜 신부전증 부르는 음식 1위\n작성시간\n18시간 전조회수 14",
+      "url": "https://v.daum.net/v/8rAGbaV75V",
+      "published_date": "2026-09-06",
+      "channel": "daum_wellness",
+      "channel_name": "웰니스업",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"가지 진작 이렇게 먹을걸..\" 주부들 10명 중 9명 몰랐던 가지 \"진짜 꿀팁\"\n작성시간\n13시간 전조회수 2.4만",
+      "url": "https://v.daum.net/v/64b1tZwa29",
+      "published_date": "2026-09-06",
+      "channel": "daum_ten",
+      "channel_name": "텐꿀팁",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "김밥을 \"이것\"으로 자르세요..37년차 분식집 사장님이 알려준 김밥 \"진짜 꿀팁\"\n작성시간\n10시간 전조회수 780",
+      "url": "https://v.daum.net/v/9vnmGWAi0c",
+      "published_date": "2026-09-06",
+      "channel": "daum_ten",
+      "channel_name": "텐꿀팁",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"남은 두부 진작 이렇게 할걸..\" 30년차 주부도 놀란 두부 \"진짜 꿀팁\"\n작성시간\n16시간 전조회수 106",
+      "url": "https://v.daum.net/v/Yw95MOJ6XG",
+      "published_date": "2026-09-06",
+      "channel": "daum_ten",
+      "channel_name": "텐꿀팁",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "화장실 악취 \"이것\" 때문입니다.. 매일 청소해도 냄새났던 \"진짜 이유\"\n작성시간\n1일 전조회수 8",
+      "url": "https://v.daum.net/v/qgHxw3Ik7H",
+      "published_date": "2026-09-06",
+      "channel": "daum_ten",
+      "channel_name": "텐꿀팁",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"돼지고기 대신 마음껏 드세요..\" 혈관 나이 10년 젊어지는 고혈압 예방 1등 음식\n작성시간\n12시간 전조회수 1.7만",
+      "url": "https://v.daum.net/v/zW0tquSrsX",
+      "published_date": "2026-09-06",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"귀찮아서 밥 대신 먹었을 뿐인데..\" 혈당 뚝 떨어지고 기력까지 살아난 의외의 음식\n작성시간\n10시간 전조회수 7,147",
+      "url": "https://v.daum.net/v/brXBMQ0HFE",
+      "published_date": "2026-09-06",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"영양제 사먹을 돈 아끼세요..\" 만성 염증 없애고 암 예방하는 뜻밖의 항암 식재료\n작성시간\n14시간 전조회수 5,860",
+      "url": "https://v.daum.net/v/VbO7oiB3uE",
+      "published_date": "2026-09-06",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"아보카도, 사과 다 제쳤다..\" 고혈압·고지혈증 싹 고치는 1등 과일\n작성시간\n9시간 전조회수 1,799",
+      "url": "https://v.daum.net/v/1yAwkA8BIv",
+      "published_date": "2026-09-06",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"커피 대신 한 잔씩 마시세요..\" 식곤증 싹 쫓고 만성피로 90% 줄이는 음식\n작성시간\n11시간 전조회수 42",
+      "url": "https://v.daum.net/v/3LfzAaV7eW",
+      "published_date": "2026-09-06",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"된장국에 절대 넣지 마세요..\" 건강에 독이 되는 의외의 식재료\n작성시간\n16시간 전조회수 10",
+      "url": "https://v.daum.net/v/3hPULTNdny",
+      "published_date": "2026-09-06",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"60대 검버섯, 기미 다 사라진다..\" 피부 탄력 살아나고 잡티 싹 없애는 1등 음식\n작성시간\n2일 전조회수 3",
+      "url": "https://v.daum.net/v/VIkiPc6bUZ",
+      "published_date": "2026-09-06",
+      "channel": "daum_dogam",
+      "channel_name": "채널도감",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "“집에 냉장고만 5대…” 먹는 거 좋아하기로 유명한 여배우의 운동법\n작성시간\n9시간 전조회수 3.1만",
+      "url": "https://v.daum.net/v/BWbf9bYCiN",
+      "published_date": "2026-09-06",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "“떡·빵·과자 다 먹는데 체지방률 16.9%…” 53세 방송인의 운동법\n작성시간\n10시간 전조회수 1,025",
+      "url": "https://v.daum.net/v/trPNCOJ6ZO",
+      "published_date": "2026-09-06",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "아침에 빵 대신 \"이 음식\" 드셔보세요 속은 편해지고 혈당 관리에도 좋습니다.\n작성시간\n14시간 전조회수 885",
+      "url": "https://v.daum.net/v/xGNXP41y3N",
+      "published_date": "2026-09-06",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"전문가도 주목한 이 식품\"… 아침에 한 스푼이면 혈관 관리가 달라집니다\n작성시간\n13시간 전조회수 255",
+      "url": "https://v.daum.net/v/HhrLoiB3iz",
+      "published_date": "2026-09-06",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"제발 한 번에 많이 드시지 마세요.\" 간 건강 나빠진 사람들이 먹고 후회한 대표 건강식\n작성시간\n17시간 전조회수 133",
+      "url": "https://v.daum.net/v/WTOpoyjJEW",
+      "published_date": "2026-09-06",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "\"콜레스테롤 걱정된다면 자주 드세요..\" 혈관 건강 관리에 도움 주는 '이 간식'\n작성시간\n16시간 전조회수 49",
+      "url": "https://v.daum.net/v/8zKZxsd82F",
+      "published_date": "2026-09-06",
+      "channel": "daum_ingam",
+      "channel_name": "인감군의건강정보",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "운전할 때 이런 선글라스 쓰지 마세요, 자외선 차단은 무슨 눈 건강만 나빠집니다.\n작성시간\n2026. 4. 16.조회수 6",
+      "url": "https://v.daum.net/v/WJvn3LFYvI",
+      "published_date": "2026-09-06",
+      "channel": "daum_living",
+      "channel_name": "리빙어게인",
+      "collected_date": "2026-09-06"
+    },
+    {
+      "title": "한국에선 \"일주일에 한 개씩은 꼭 먹는 과일인데\" 외국에선 충격 먹는 과일 1위\n작성시간\n2026. 6. 3.조회수 2",
+      "url": "https://v.daum.net/v/98DlXMLxY7",
+      "published_date": "2026-09-06",
+      "channel": "daum_living",
+      "channel_name": "리빙어게인",
+      "collected_date": "2026-09-06"
     },
     {
       "title": "\"물 걸러내던 시설에서 공원으로 탈바꿈했다\"... 콘크리트 기둥에 덩굴이 자라난 섬 명소",
@@ -25494,471 +25886,16 @@
       "channel": "daum_ingam",
       "channel_name": "인감군의건강정보",
       "collected_date": "2026-07-08"
-    },
-    {
-      "title": "\"하루 450명만 들어갈 수 있다고요?\"…1987년부터 봉인된 5만 평 야생화 초원",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16455",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-06"
-    },
-    {
-      "title": "\"3,000평이 전부 노랗게 물든대요\"… 저녁에만 꽃봉오리 여는 달맞이 강변 경관지",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16453",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-06"
-    },
-    {
-      "title": "\"휴지심 버리지 말고 '사선'으로 잘라보세요\"... 장마철 현관·창틀 먼지가 싹 사라집니다",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16464",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-06"
-    },
-    {
-      "title": "\"올 여름휴가, 여기 하나로 다 됩니다\"... 용천수·야간 폭포, 바다까지 7가지 테마 여행지",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16452",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-06"
-    },
-    {
-      "title": "\"국비 50억 들여 3년 공사 끝에 드디어 열렸어요\"... 발아래 바다 전망 펼쳐치는 46m 스카이워크",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16445",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-06"
-    },
-    {
-      "title": "\"냄비 뚜껑 테두리 수세미로 박박 닦지 마세요\"... '이 한 방울'만 바르면 기름때 말끔히 사라집니다",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16477",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"이게 진짜 바다 위 산책이죠\"... 고래 형상 스카이워크를 걷는 무료 해안 전망대",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16506",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"해운대 말고 여기도 있어요\"... 드론쇼·해변 영화관·불꽃 야경까지 한 번에 즐기는 해변",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16510",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"고등어 굽기 전에 '이 한 장'만 덮어보세요\"... 주방 냄새·연기가 확 줄어듭니다",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16474",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"유명 계곡보다 물은 더 맑은데 한적해서 좋아요\"... 투명한 수중 시야 자랑하는 청정 계곡 명소",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16502",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"1,000만 명 다녀간 이 호수 절경 나만 몰랐네\"… 입장·주차 0원인 402m 저수지 위 출렁다리",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16503",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"베개 노란 얼룩에 독한 락스 쓰지 마세요\"… 집에 있는 '이 액체'로 누런 기 한 번에 빠집니다",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16480",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"여기는 진짜 물 위를 걷는 기분이에요\"... 1km 내내 발아래가 전부 호수인 무료 데크 산책길",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16500",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"이제 배 안 타도 섬 건넌다고?\"... 19년 만에 뚫리는 3.2km 서해 바다 위 드라이브 코스",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16499",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"감자 그냥 먹지 말고 으깬 뒤에 '이 가루' 넣어보세요\"... 온 가족이 맛있다며 2주째 칭찬합니다",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16471",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"오르막 한 번 없이 바다 위 1,154m를 걷는다고요?\"…입장료·주차비 모두 무료인 출렁다리 섬",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16495",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"같은 얼굴인데 아침·정오·저녁 전부 달라요\"… 발견 3년 만에 국보 지정된 1,400년 암벽 마애불",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16492",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"선풍기 안 시원하면 날개 닦기 전 ''이것'부터  해보세요\"… 바람 세기가 눈에 띄게 살아납니다",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16472",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"연 100만 명이 찾는 여름 피서지라고?\"... 지하로 내려간 순간 더위 사라지는 동굴 테마파크",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16491",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"비 올 때 오히려 더 아름답다고요?\"... 입장료 무료인데 팔만대장경까지 품은 1400년 천년 고찰",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16489",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"가스레인지 찌든때에 '이 물' 한 컵만 뿌려보세요\"... 15분 만에 얼룩이 말끔히 없어집니다",
-      "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=16468",
-      "published_date": "2026-07-07",
-      "channel": "ardentnews",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "별로 쓰는 데도 없는 거 같은데, 항상 '돈 없다는' 사람들 특징",
-      "url": "https://www.wikitree.co.kr/articles/1145275",
-      "published_date": "2026-07-07",
-      "channel": "wikitree",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "장마철 우산 아무거나 쓰지 마세요… 꼭 '이 부분' 봐야 돈 안 버립니다",
-      "url": "https://www.wikitree.co.kr/articles/1145265",
-      "published_date": "2026-07-07",
-      "channel": "wikitree",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "돈 없어도, 결혼 안 해도 끝까지 혼자서 잘 사는 사람 특징 '1가지'",
-      "url": "https://www.wikitree.co.kr/articles/1145269",
-      "published_date": "2026-07-07",
-      "channel": "wikitree",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "'끓는 물'에 복숭아 딱 10초만 넣었다가 빼보세요…이건 과일가게 사장님도 따라 해요",
-      "url": "https://www.wikitree.co.kr/articles/1145251",
-      "published_date": "2026-07-07",
-      "channel": "wikitree",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"감자, 양파도 아니었다..\" 망가진 60대 신장 되살리는 최고의 보약 채소 1위\n작성시간\n1일 전조회수 4,208",
-      "url": "https://v.daum.net/v/Bs062RIky7",
-      "published_date": "2026-07-07",
-      "channel": "daum_helshu",
-      "channel_name": "헬슈오",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"다시마, 미역 다 제쳤다..\" 구멍 난 뼈 싹 채워주고 골다공증 예방하는 보약 음식\n작성시간\n10시간 전조회수 3,391",
-      "url": "https://v.daum.net/v/Vgn1mAXSlR",
-      "published_date": "2026-07-07",
-      "channel": "daum_helshu",
-      "channel_name": "헬슈오",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"설탕도 밀가루도 아니었다..\" 50대 혈관 다 막고 당뇨 수치 쑥쑥 올리는 최악의 음식\n작성시간\n16시간 전조회수 576",
-      "url": "https://v.daum.net/v/1LHM1FMV7h",
-      "published_date": "2026-07-07",
-      "channel": "daum_helshu",
-      "channel_name": "헬슈오",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "50대 이후 손 \"이 증상\" 있다면 당장 큰 병원 가세요, 흔한 통풍 초기 증상입니다.\n작성시간\n14시간 전조회수 95",
-      "url": "https://v.daum.net/v/4aVBwm0HR7",
-      "published_date": "2026-07-07",
-      "channel": "daum_helshu",
-      "channel_name": "헬슈오",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"토마토보다 76배 좋다..\" 먹기만 해도 나쁜 혈액 싹 없애주는 '항산화 폭발' 음식\n작성시간\n12시간 전조회수 87",
-      "url": "https://v.daum.net/v/WaYtrjHlgv",
-      "published_date": "2026-07-07",
-      "channel": "daum_helshu",
-      "channel_name": "헬슈오",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"오징어, 낙지 다 제쳤다..\" 여름철 기력 회복 돕고 만성피로 사라지는 해산물 1위\n작성시간\n3일 전조회수 2",
-      "url": "https://v.daum.net/v/QNPJqqoMhX",
-      "published_date": "2026-07-07",
-      "channel": "daum_helshu",
-      "channel_name": "헬슈오",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"등산은 이제 한물 갔다..\" 60대 죽은 허벅지 근육 빵빵하게 채워주는 '최고의 운동'\n작성시간\n8시간 전",
-      "url": "https://v.daum.net/v/5nxhfqoMbS",
-      "published_date": "2026-07-07",
-      "channel": "daum_helshu",
-      "channel_name": "헬슈오",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"이미 먹은 사람들 어쩌나\" 생으로 무쳤다가 '신장' 망치고 '복통' 유발하는 뜻밖의 채소\n작성시간\n20시간 전조회수 6.4만",
-      "url": "https://v.daum.net/v/Phmj24EoVz",
-      "published_date": "2026-07-07",
-      "channel": "daum_wellness",
-      "channel_name": "웰니스업",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"찬물에 오래 담가두세요..\" 독소는 제거되고 영양분만 남는 뜻밖의 음식\n작성시간\n1일 전조회수 2,828",
-      "url": "https://v.daum.net/v/XdO1Gpd8fX",
-      "published_date": "2026-07-07",
-      "channel": "daum_wellness",
-      "channel_name": "웰니스업",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"견과류 대신 매일 한 접시 드세요\" 깜빡하는 60대 뇌세포 깨우고 치매 막는 1등 음식\n작성시간\n18시간 전조회수 364",
-      "url": "https://v.daum.net/v/pC37rOUZUa",
-      "published_date": "2026-07-07",
-      "channel": "daum_wellness",
-      "channel_name": "웰니스업",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"제발 냉동실에 오래 쟁여두지 마세요\" 꽝꽝 얼어도 혈관 망치는 '산패 독소' 나옵니다\n작성시간\n16시간 전조회수 279",
-      "url": "https://v.daum.net/v/6nXRt3Rfux",
-      "published_date": "2026-07-07",
-      "channel": "daum_wellness",
-      "channel_name": "웰니스업",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"하루 딱 10분만 따라하세요..\" 백살까지 내 발로 걷게 만드는 하체 근육 단련법\n작성시간\n1일 전조회수 212",
-      "url": "https://v.daum.net/v/bEXZbQmjoN",
-      "published_date": "2026-07-07",
-      "channel": "daum_wellness",
-      "channel_name": "웰니스업",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"멸치 백 마리보다 낫습니다\" 매일 한 줌으로 60대 골다공증 막아주는 '이 음식'\n작성시간\n14시간 전조회수 59",
-      "url": "https://v.daum.net/v/6rR6STKpLU",
-      "published_date": "2026-07-07",
-      "channel": "daum_wellness",
-      "channel_name": "웰니스업",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"여태껏 왜 먹었나 싶네요..\" 60대가 먹으면 뇌세포가 말라 죽는 최악의 음식\n작성시간\n12시간 전조회수 56",
-      "url": "https://v.daum.net/v/QNOTgeCEWR",
-      "published_date": "2026-07-07",
-      "channel": "daum_wellness",
-      "channel_name": "웰니스업",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"혈당 200까지 찍습니다..\" 당뇨 전단계 환자가 절대 피해야 할 음식 1순위\n작성시간\n10시간 전조회수 15",
-      "url": "https://v.daum.net/v/GspA8baebP",
-      "published_date": "2026-07-07",
-      "channel": "daum_wellness",
-      "channel_name": "웰니스업",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"요거트 통 진작 이렇게 할걸..\" 주부들 뒤늦게 알고 후회한 요거트 통 \"진짜 꿀팁\"\n작성시간\n17시간 전조회수 9,410",
-      "url": "https://v.daum.net/v/FdCY9fkLvS",
-      "published_date": "2026-07-07",
-      "channel": "daum_ten",
-      "channel_name": "텐꿀팁",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "오이는 제발 '이렇게' 드세요.. 30년차 주부도 놀란 오이 \"진짜 꿀팁\"\n작성시간\n10시간 전조회수 4,210",
-      "url": "https://v.daum.net/v/XYTxpZ6bV8",
-      "published_date": "2026-07-07",
-      "channel": "daum_ten",
-      "channel_name": "텐꿀팁",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "감자전에 감자만 넣지 마세요.. '이것'으로 바삭함이 2배 됩니다\n작성시간\n14시간 전조회수 1,732",
-      "url": "https://v.daum.net/v/pSrcuzLxWO",
-      "published_date": "2026-07-07",
-      "channel": "daum_ten",
-      "channel_name": "텐꿀팁",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"소고기 사먹을 돈 아끼세요..\" 60대 어지럽고 기력 떨어질 때 꼭 먹어야할 음식\n작성시간\n16시간 전조회수 4.6만",
-      "url": "https://v.daum.net/v/QbkprspXv2",
-      "published_date": "2026-07-07",
-      "channel": "daum_dogam",
-      "channel_name": "채널도감",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"이 좋은 걸 한국인만 먹었다니..\" 일본 관광객들이 극찬한 한국 보약 음식 1위\n작성시간\n14시간 전조회수 1.8만",
-      "url": "https://v.daum.net/v/2aVBwm0HU4",
-      "published_date": "2026-07-07",
-      "channel": "daum_dogam",
-      "channel_name": "채널도감",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"뷔페가면 이 음식 3접시 꽉 담으세요\" 먹을수록 돈 버는 1등 음식\n작성시간\n11시간 전조회수 7,730",
-      "url": "https://v.daum.net/v/QoW6ZTKpSr",
-      "published_date": "2026-07-07",
-      "channel": "daum_dogam",
-      "channel_name": "채널도감",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"비빔밥, 보리밥도 아니다..\" 의사들도 혈당 걱정 없이 맘껏 먹는 뜻밖의 외식 메뉴\n작성시간\n12시간 전조회수 5,162",
-      "url": "https://v.daum.net/v/4QmSLMOc7r",
-      "published_date": "2026-07-07",
-      "channel": "daum_dogam",
-      "channel_name": "채널도감",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"쌀밥도 국수도 아니다..\" 60대가 꼭 끊어야 할 혈당 폭탄 음식 3가지\n작성시간\n17시간 전조회수 4,294",
-      "url": "https://v.daum.net/v/7VAs3UJ6FS",
-      "published_date": "2026-07-07",
-      "channel": "daum_dogam",
-      "channel_name": "채널도감",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"아보카도, 오이 다 제쳤다..\" 막힌 혈관 뻥 뚫고 동맥경화 예방하는 1등 음식\n작성시간\n10시간 전조회수 2,089",
-      "url": "https://v.daum.net/v/0Qm9HSB3CS",
-      "published_date": "2026-07-07",
-      "channel": "daum_dogam",
-      "channel_name": "채널도감",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"가급적 매일 챙겨 드세요..\" 전신 건강에 도움 되는 국민 과일 1위\n작성시간\n9시간 전조회수 1,283",
-      "url": "https://v.daum.net/v/5nzF9uiP7b",
-      "published_date": "2026-07-07",
-      "channel": "daum_dogam",
-      "channel_name": "채널도감",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"중국인들도 환장한다..\" 보약보다 좋은 면역력 폭발 한국 음식의 정체\n작성시간\n15시간 전조회수 243",
-      "url": "https://v.daum.net/v/81J0cE1y2I",
-      "published_date": "2026-07-07",
-      "channel": "daum_dogam",
-      "channel_name": "채널도감",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"매일 먹으며 몸속 벌레 키운 셈입니다..\" 생으로 먹기 전 꼭 확인해야 할 음식 1위\n작성시간\n14시간 전조회수 791",
-      "url": "https://v.daum.net/v/7iCPRdhDnZ",
-      "published_date": "2026-07-07",
-      "channel": "daum_ingam",
-      "channel_name": "인감군의건강정보",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "의사들도 경고한 \"이 반찬\" 제발 끊으세요, 50대 이후 치매 유발하는 음식입니다.\n작성시간\n9시간 전조회수 409",
-      "url": "https://v.daum.net/v/HmxVJPrNNL",
-      "published_date": "2026-07-07",
-      "channel": "daum_ingam",
-      "channel_name": "인감군의건강정보",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"아무리 끓여도 안심 못 합니다\"... 많은 사람들이 놓치는 식재료 선택법\n작성시간\n14시간 전조회수 209",
-      "url": "https://v.daum.net/v/b6FXJnvmpp",
-      "published_date": "2026-07-07",
-      "channel": "daum_ingam",
-      "channel_name": "인감군의건강정보",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"고기 먹을 때 꼭 함께 드세요..\" 균형 잡힌 식단에 빠지지 않는 대표 채소 1위\n작성시간\n11시간 전조회수 155",
-      "url": "https://v.daum.net/v/f94sxVcnNc",
-      "published_date": "2026-07-07",
-      "channel": "daum_ingam",
-      "channel_name": "인감군의건강정보",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"마트에서 보이면 꼭 담아오세요\" 나이 들수록 혈관 건강에 도움 되는 대표 채소\n작성시간\n15시간 전조회수 143",
-      "url": "https://v.daum.net/v/FwKPajHlNP",
-      "published_date": "2026-07-07",
-      "channel": "daum_ingam",
-      "channel_name": "인감군의건강정보",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"한국에서는 흔하지만…\" 해외에서는 일부러 찾아 먹는다는 뜻밖의 인기 간식\n작성시간\n9시간 전조회수 79",
-      "url": "https://v.daum.net/v/WuPfLMOczy",
-      "published_date": "2026-07-07",
-      "channel": "daum_ingam",
-      "channel_name": "인감군의건강정보",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"마트에서 이런 버섯은 지나치세요..\" 좋은 제품 고르는 사람들이 꼭 보는 기준\n작성시간\n12시간 전조회수 76",
-      "url": "https://v.daum.net/v/35qfXvb0v6",
-      "published_date": "2026-07-07",
-      "channel": "daum_ingam",
-      "channel_name": "인감군의건강정보",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "\"건강식인 줄 알았는데 아니었습니다...\" 지방 함량이 의외로 높은 음식 1위\n작성시간\n13시간 전조회수 38",
-      "url": "https://v.daum.net/v/HpHj1FMVox",
-      "published_date": "2026-07-07",
-      "channel": "daum_ingam",
-      "channel_name": "인감군의건강정보",
-      "collected_date": "2026-07-07"
-    },
-    {
-      "title": "잠잘 때 \"꼭 이 자세로 주무세요\" 한의원 원장들이 극찬한 의외의 방법\n작성시간\n2026. 5. 4.조회수 10",
-      "url": "https://v.daum.net/v/x5xBOZPKxY",
-      "published_date": "2026-07-07",
-      "channel": "daum_living",
-      "channel_name": "리빙어게인",
-      "collected_date": "2026-07-07"
     }
   ],
   "counts": {
-    "ardentnews": 1185,
+    "ardentnews": 1184,
     "wikitree": 236,
-    "daum_helshu": 300,
-    "daum_wellness": 367,
-    "daum_ten": 220,
-    "daum_dogam": 461,
-    "daum_ingam": 524,
-    "daum_living": 124
+    "daum_helshu": 298,
+    "daum_wellness": 363,
+    "daum_ten": 221,
+    "daum_dogam": 460,
+    "daum_ingam": 522,
+    "daum_living": 125
   }
 }
